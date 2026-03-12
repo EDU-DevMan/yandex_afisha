@@ -1,0 +1,19 @@
+.idea/
+__pycache__
+.venv
+.env
+.venv.bak
+.env.bak
+livereload_website.py
+tutorial.html
+
+### Django ###
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+
+.env
+db.sqlite3
+media/
