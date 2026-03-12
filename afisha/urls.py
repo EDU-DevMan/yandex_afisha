@@ -17,6 +17,11 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
+# from index_main import views
+from afisha import views
+
+
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('', views.index_main),
 ]
